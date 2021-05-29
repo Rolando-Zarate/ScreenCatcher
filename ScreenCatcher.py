@@ -52,7 +52,7 @@ class Application:
         else:
             messagebox.showinfo(title="Oops",message="Invalid folder or image name!")
     def aboutMessage(self):
-        messagebox.showinfo(title="About ScreenCatcher",message="ScreenCatcher is a free and open source screenshot taker for Microsoft Windows. Apache License v2.")
+        messagebox.showinfo(title="About ScreenCatcher",message="ScreenCatcher is a free and open source screenshot taker for Microsoft Windows and Linux. Apache License v2.")
     def imageLoader(self):
         image = filedialog.askopenfilename(title="Open a image or capture",initialdir="/",filetypes=(("PNG Image","*.png"),("JPG Image","*.jpg"),("Microsoft Windows Bitmap Image","* .bmp"),))
         try: 
